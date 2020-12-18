@@ -16,7 +16,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 1.5fr 1.5fr 1.5fr 0.5fr ;
+    grid-template-rows: 2fr 1fr 1.5fr 1.5fr 0.5fr ;
     grid-template-areas: 
         "header main main"
         "header content1 content1"
@@ -32,8 +32,8 @@ body {
 
 img{
     width: 150px;
-    border-radius: 10%;
-    border: 1px solid #66cc99;
+    border-radius: 50%;
+    border: 5px solid #66cc99;
     padding-top: 10px;
 }
 
@@ -47,11 +47,16 @@ img{
     padding-left: 10px;
  }
 
- .profile-container div {
-
+.profile-container div {
     padding: 10px 10px;
 }
- 
+
+.l{
+    color: #4a4e51;
+}
+.r{
+    color: #9099a0;
+}
 
 header {
     background-color: #fff;
