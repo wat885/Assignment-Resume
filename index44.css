@@ -15,7 +15,7 @@ body {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.25fr 1fr 1fr;
     grid-template-rows: 2fr 1fr 1.5fr 1.5fr 0.5fr ;
     grid-template-areas: 
         "header main main"
