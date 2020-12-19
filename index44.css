@@ -24,10 +24,11 @@ body {
         "header content3 content3"
         "footer footer footer"
     ;
-    grid-gap: 0.2rem;
-    border-radius: 5px;
+    grid-gap: 0.3rem;
+
     color: #66cc99;
     /* background-color: #3d3e42; */
+   
 }
 
 img{
@@ -41,15 +42,15 @@ img{
 .profile-container{
     display: grid;
     grid-template-columns: 0.5fr 1.5fr ;
-    grid-gap: 10px;
     /* background-color: #2196F3; */
     text-align: left;
     padding-left: 10px;
-    
  }
 
 .profile-container div {
-    padding: 10px 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* background-color: #2196F3; */
 }
 
 .l{
@@ -93,11 +94,8 @@ h3:hover{
 .main-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 10px;
     /* background-color: #2196F3; */
     padding: 10px;
-
-
 }
 
 
@@ -134,7 +132,6 @@ h3:hover{
     /* background: #6fffd2; */
     grid-area: content1;
     background-color: #3d3e42;
-    
 }
 
 #content2 {
@@ -185,16 +182,24 @@ footer {
             "content3"
             "footer"
         ;
+  
     }
 
     .main-container {
         grid-template-columns: 1fr ;
-
     }
+
+    h3{
+        padding-left: 10px;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+
+
+
     .itemR  {
         grid-column-end: auto;
         margin-left: 30px;
-
     }
     .itemL {
         text-align: left;
@@ -217,8 +222,7 @@ footer {
     }
 
     .profile-container div {
-
-        padding: 5px 5px;
+        padding: 10px;
     }
 
 
