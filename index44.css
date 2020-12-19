@@ -27,7 +27,7 @@ body {
     grid-gap: 0.2rem;
     border-radius: 5px;
     color: #66cc99;
-    background-color: #3d3e42;
+    /* background-color: #3d3e42; */
 }
 
 img{
@@ -45,6 +45,7 @@ img{
     /* background-color: #2196F3; */
     text-align: left;
     padding-left: 10px;
+    
  }
 
 .profile-container div {
@@ -75,6 +76,7 @@ main {
     /* background: #84ffff; */
     grid-area: main;
     padding-bottom: 10px;
+    background-color: #3d3e42;
 }
 
 h3{
@@ -85,7 +87,7 @@ h3{
 h3:hover{
     color: #c3c3c3;
     font-weight: 300;
-    border-bottom: 1px solid #c3c3c3;
+    /* border-bottom: 1px solid #c3c3c3; */
   }
 
 .main-container {
@@ -131,17 +133,20 @@ h3:hover{
 #content1 {
     /* background: #6fffd2; */
     grid-area: content1;
+    background-color: #3d3e42;
     
 }
 
 #content2 {
     /* background: #64ffda; */
     grid-area: content2;
+    background-color: #3d3e42;
 }
 
 #content3 {
     /* background: #73ffba; */
     grid-area: content3;
+    background-color: #3d3e42;
 }
 
 #content4 {
@@ -153,6 +158,7 @@ footer {
     /* background-color: #008CBA; */
     grid-area: footer;
     text-align: center;
+    background-color: #3d3e42;
 }
 
 
