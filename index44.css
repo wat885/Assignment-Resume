@@ -42,7 +42,7 @@ img{
 .profile-container{
     display: grid;
     grid-template-columns: 0.5fr 1.5fr ;
-    /* background-color: #2196F3; */
+
     text-align: left;
     padding-left: 10px;
  }
@@ -50,8 +50,9 @@ img{
 .profile-container div {
     padding: 10px;
     margin-bottom: 10px;
-    /* background-color: #2196F3; */
+
 }
+
 
 .l{
     color: #4a4e51;
@@ -59,6 +60,11 @@ img{
 .r{
     color: #9099a0;
 }
+div .r{
+    padding-top: 15px
+}
+
+
 
 header {
     background-color: #fff;
@@ -223,6 +229,10 @@ footer {
 
     .profile-container div {
         padding: 10px;
+    }
+
+    div .r{
+        padding-top: 15px
     }
 
 
